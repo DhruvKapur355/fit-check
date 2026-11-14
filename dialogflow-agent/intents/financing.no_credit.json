@@ -1,0 +1,58 @@
+{
+  "id": "8a67a032-7954-5299-a346-a69e0cbde8e7",
+  "name": "financing.no_credit",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Thin credit is normal in college. Your options:\n- Get pre-approved at a credit union first so you have a rate to compare.\n- Apply with a co-signer, like a parent, to qualify for a better rate.\n- Tesla lets you apply for a loan or lease when you order, so compare its offer with your pre-approval."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "- Leasing usually means a lower monthly payment, but you don't own the car and there are mileage limits.\nTip: budget for insurance and charging, not just the monthly payment."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "Insurance tips",
+              "How does ordering work?"
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

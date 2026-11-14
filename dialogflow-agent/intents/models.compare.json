@@ -1,0 +1,59 @@
+{
+  "id": "a0f8a33f-88df-57ec-a566-55752966ed7a",
+  "name": "models.compare",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Quick comparison (2026 model year, launch prices before fees):\n- Model 3 Standard: sedan, $36,990, up to 321 miles. The cheapest new Tesla.\n- Model Y Standard: small SUV, $39,990, up to 321 miles. More cargo room for moving in and out of dorms."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "- Premium trims cost $5,000 to $5,500 more and add range and features.\nFor most students, the Model 3 Standard is the best new value, and a used Model 3 is cheaper still."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "Buying a used Tesla",
+              "Take the Fit Check quiz",
+              "Book a test drive"
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

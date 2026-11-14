@@ -1,0 +1,66 @@
+{
+  "id": "98d4d1fe-8153-5590-a198-e1c850deba13",
+  "name": "quiz.q1.fallback",
+  "auto": true,
+  "contexts": [
+    "quiz-q1"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "quiz-q1",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "I didn't catch that answer. Pick A or B, or type \"menu\" to leave the quiz."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Question 1 of 3: Where would you charge most nights?\nA) At home or my apartment, where I can plug in\nB) Only campus or public chargers"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "I can charge at home",
+              "Only campus or public chargers"
+            ],
+            "polish": false
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

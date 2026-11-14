@@ -83,6 +83,10 @@ body {
 }
 .chip:hover { border-color: var(--ink); transform: translateY(-1px); }
 
+.quick { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+.chip.small { font-size: 13.5px; padding: 8px 13px; border-radius: 999px; border-color: var(--ink); }
+.chip.small:hover { background: var(--ink); color: #fff; }
+
 /* Messages */
 .messages { display: flex; flex-direction: column; gap: 18px; }
 .msg { display: flex; flex-direction: column; max-width: 88%; animation: rise .25s ease-out; }

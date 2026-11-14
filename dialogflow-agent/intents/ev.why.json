@@ -1,0 +1,58 @@
+{
+  "id": "98c61cdc-2c68-5492-a548-bf8bc3a6f2be",
+  "name": "ev.why",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Here's the honest version for students.\nPros: charging at home costs far less per mile than gas, there are no oil changes, and EVs are quick and quiet.\nCons: the upfront price is higher than a cheap used gas car, insurance often costs more, and cold weather cuts range."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "The biggest deciding factor is whether you can plug in where you live. Want to take the Fit Check quiz to see if an EV works for you?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "Take the Fit Check quiz",
+              "How much does a Tesla cost?"
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

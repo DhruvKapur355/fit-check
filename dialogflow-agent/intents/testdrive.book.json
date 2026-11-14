@@ -1,0 +1,58 @@
+{
+  "id": "e683706a-ba81-5637-ac6a-8ae1119080ce",
+  "name": "testdrive.book",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Book a demo drive at tesla.com/drive. Good to know for college students:\n- A regular demo drive of a Model 3 or Model Y requires you to be 18 or older with a valid driver's license.\n- Overnight and self-serve demo drives require you to be 21 or older."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "- Arrive about 10 minutes early, and book with the same email as your Tesla app login.\nTip: ask the advisor how charging would work at your apartment or campus."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "How does ordering work?",
+              "Insurance tips"
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

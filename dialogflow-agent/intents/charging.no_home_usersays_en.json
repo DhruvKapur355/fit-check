@@ -1,0 +1,145 @@
+[
+  {
+    "id": "b94dfcef-89b4-5379-a5aa-acecf1487af7",
+    "data": [
+      {
+        "text": "I live in an apartment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3098f715-2b02-5478-a386-b9bcd35d0a76",
+    "data": [
+      {
+        "text": "I live in a dorm",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "951b6a46-b697-52b3-a5d5-3030526708f0",
+    "data": [
+      {
+        "text": "I live in an apartment or dorm",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2c745496-b7b0-5a8c-abe8-90c67688fe3a",
+    "data": [
+      {
+        "text": "I don't have a garage",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "486f5ae9-aa72-5666-a24b-70e8973d6f7c",
+    "data": [
+      {
+        "text": "can I own an EV without home charging",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d0aaa606-368a-5ec8-a9b2-196c0f143204",
+    "data": [
+      {
+        "text": "no place to charge at home",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c3dbc625-baab-5372-a801-6f4f3b10c9ae",
+    "data": [
+      {
+        "text": "apartment charging",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7eff5bde-0179-5ee5-a163-f4704c949989",
+    "data": [
+      {
+        "text": "how do I charge if I rent",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1592e785-d4c5-596f-af22-d3535e6eb7e3",
+    "data": [
+      {
+        "text": "street parking only",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2094727c-01ab-5418-a024-9e2ccb5682fe",
+    "data": [
+      {
+        "text": "my landlord does not have chargers",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "08e6c2c3-b765-55db-af53-26a8b167c9c7",
+    "data": [
+      {
+        "text": "can I charge in a dorm",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

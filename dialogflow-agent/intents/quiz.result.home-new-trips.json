@@ -1,0 +1,91 @@
+{
+  "id": "af122944-8e45-575f-a5e5-0c2b60e1feb0",
+  "name": "quiz.result.home-new-trips",
+  "auto": true,
+  "contexts": [
+    "quiz-q3-home-new"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "quiz-q1",
+          "lifespan": 0
+        },
+        {
+          "name": "quiz-q2-home",
+          "lifespan": 0
+        },
+        {
+          "name": "quiz-q2-public",
+          "lifespan": 0
+        },
+        {
+          "name": "quiz-q3-home-used",
+          "lifespan": 0
+        },
+        {
+          "name": "quiz-q3-home-new",
+          "lifespan": 0
+        },
+        {
+          "name": "quiz-q3-public-used",
+          "lifespan": 0
+        },
+        {
+          "name": "quiz-q3-public-new",
+          "lifespan": 0
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Your Fit Check result: GREAT FIT.\nMy pick: a new Model 3 Premium for the most range (up to 363 miles for 2026), or a Model Y if you need SUV cargo space for moving in and out."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Why: home charging covers the week, and Superchargers make trips home easy. If you can install a Level 2 charger (about 10-20 miles of range per hour), you'll leave every trip with a full battery.\nNext steps: get an insurance quote, compare financing, and book a demo drive."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "Book a test drive",
+              "Insurance tips",
+              "Financing with no credit",
+              "Retake the quiz"
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

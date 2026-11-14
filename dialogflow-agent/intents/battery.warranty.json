@@ -1,0 +1,58 @@
+{
+  "id": "1efba201-12e4-525b-a817-969206d46121",
+  "name": "battery.warranty",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Tesla's battery and drive unit warranty lasts 8 years. The mileage limit is 100,000 miles for the Model 3 RWD (including the Standard) and the Model Y RWD and AWD, and 120,000 miles for Premium and Performance trims."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Tesla guarantees at least 70% of battery capacity over that period, and the coverage stays with the car if you buy used."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "Buying a used Tesla",
+              "Maintenance"
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

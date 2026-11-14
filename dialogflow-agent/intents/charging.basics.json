@@ -1,0 +1,59 @@
+{
+  "id": "767a6151-7487-5378-ac9d-d6752bf9ae33",
+  "name": "charging.basics",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "There are three ways to charge (U.S. DOT figures):\n- Level 1, a regular 120V outlet: about 2-5 miles of range per hour. Slow, but overnight it covers a lot of campus driving.\n- Level 2, a 240V charger (like a dryer outlet): about 10-20 miles per hour. Found at homes, workplaces, and public lots."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "- DC fast charging, like Tesla Superchargers: about 180-240 miles per hour, for road trips.\nA home Level 2 unit usually costs about $400 to $1,000 plus installation. Where do you live: a house, an apartment, or a dorm?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "I live in an apartment or dorm",
+              "Charging on campus",
+              "Road trips"
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

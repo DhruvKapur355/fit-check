@@ -1,0 +1,91 @@
+{
+  "id": "ff547cfd-ff82-52c7-a540-7645d77d4edf",
+  "name": "quiz.result.public-used-local",
+  "auto": true,
+  "contexts": [
+    "quiz-q3-public-used"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "quiz-q1",
+          "lifespan": 0
+        },
+        {
+          "name": "quiz-q2-home",
+          "lifespan": 0
+        },
+        {
+          "name": "quiz-q2-public",
+          "lifespan": 0
+        },
+        {
+          "name": "quiz-q3-home-used",
+          "lifespan": 0
+        },
+        {
+          "name": "quiz-q3-home-new",
+          "lifespan": 0
+        },
+        {
+          "name": "quiz-q3-public-used",
+          "lifespan": 0
+        },
+        {
+          "name": "quiz-q3-public-new",
+          "lifespan": 0
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Your Fit Check result: GOOD FIT, WITH PLANNING.\nMy pick: a used Model 3."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Why: local driving uses little energy, so a couple of charging sessions a week at campus garages or public Level 2 chargers may cover you. Public charging costs more than home charging and comes with rules (IU garages, for example, limit charging to 4 hours a day). First, ask your landlord about an outlet, because it changes everything.\nNext steps: map the chargers near you, then book a demo drive."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "Book a test drive",
+              "Insurance tips",
+              "Financing with no credit",
+              "Retake the quiz"
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,90 @@
+{
+  "id": "57f13b55-437a-5e8d-a6d6-17be563152e5",
+  "name": "quiz.q2.public.used",
+  "auto": true,
+  "contexts": [
+    "quiz-q2-public"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "quiz-q3-public-used",
+          "lifespan": 2
+        },
+        {
+          "name": "quiz-q1",
+          "lifespan": 0
+        },
+        {
+          "name": "quiz-q2-home",
+          "lifespan": 0
+        },
+        {
+          "name": "quiz-q2-public",
+          "lifespan": 0
+        },
+        {
+          "name": "quiz-q3-home-used",
+          "lifespan": 0
+        },
+        {
+          "name": "quiz-q3-home-new",
+          "lifespan": 0
+        },
+        {
+          "name": "quiz-q3-public-new",
+          "lifespan": 0
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Used is the smart money move for most students, and buying from Tesla adds extra warranty coverage."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Question 3 of 3: How do you usually drive?\nA) Mostly around campus and town\nB) Regular long trips, like driving home on breaks"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "Mostly around campus",
+              "Long trips home"
+            ],
+            "polish": false
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

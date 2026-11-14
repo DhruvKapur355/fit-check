@@ -1,0 +1,90 @@
+{
+  "id": "81f914fc-86d4-5b75-a91b-cf1637cb8790",
+  "name": "quiz.q1.public",
+  "auto": true,
+  "contexts": [
+    "quiz-q1"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "quiz-q2-public",
+          "lifespan": 2
+        },
+        {
+          "name": "quiz-q1",
+          "lifespan": 0
+        },
+        {
+          "name": "quiz-q2-home",
+          "lifespan": 0
+        },
+        {
+          "name": "quiz-q3-home-used",
+          "lifespan": 0
+        },
+        {
+          "name": "quiz-q3-home-new",
+          "lifespan": 0
+        },
+        {
+          "name": "quiz-q3-public-used",
+          "lifespan": 0
+        },
+        {
+          "name": "quiz-q3-public-new",
+          "lifespan": 0
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Got it. Without home charging you'll plan charging the way you plan gas stops, and pay public rates. It's still doable for a lot of students."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Question 2 of 3: What's your budget?\nA) Under $35,000, used is fine\nB) $35,000 or more for a new car"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "Under $35,000, used is fine",
+              "$35,000 or more, new"
+            ],
+            "polish": false
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

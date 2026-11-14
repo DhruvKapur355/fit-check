@@ -1,0 +1,58 @@
+{
+  "id": "3ea1cf42-f977-5b13-a632-238b25f587c6",
+  "name": "cost.tax_credit",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Unfortunately, no. The federal EV tax credit (up to $7,500 new, $4,000 used) ended for cars bought after September 30, 2025, and the federal credit for home chargers ran only through June 30, 2026."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Some states, cities, and electric utilities still offer their own rebates, so check with your electric utility and the Department of Energy's incentive search at afdc.energy.gov/laws before you buy."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "How much does a Tesla cost?",
+              "Charging vs. gas cost"
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

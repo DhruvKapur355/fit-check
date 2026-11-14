@@ -1,0 +1,58 @@
+{
+  "id": "6094eed7-afc5-5def-af96-101a753bae17",
+  "name": "maintenance.basics",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "EVs need a lot less maintenance: no oil changes, spark plugs, or transmission fluid. For the Model 3 and Model Y, the recommended schedule includes tire rotations every 6,250 miles, a new cabin air filter every 2 years, and a brake fluid check every 4 years."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "You schedule service in the Tesla app, and Tesla's mobile service can do many jobs wherever your car is parked."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "Battery warranty",
+              "Book a test drive"
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

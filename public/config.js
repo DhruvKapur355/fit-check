@@ -1,15 +1,17 @@
 // Edit this file to change the text on the site. No code changes needed.
-// Make the suggestion chips match phrases your Dialogflow intents are trained on.
+// The buttons send these exact phrases to Dialogflow, so keep them matched to training phrases.
 window.FIT_CHECK = {
   name: 'Fit Check',
-  tagline: 'EV buying assistant',
-  heroTitle: 'Find your fit before you buy your first EV.',
-  heroSub: 'Ask about charging, range, ownership costs, or booking a test drive. Every answer comes from our rule-based Dialogflow agent.',
+  tagline: 'EV guide for college students',
+  heroTitle: 'Is an EV the right first car for you?',
+  heroSub: 'Take the 3-question Fit Check quiz or ask about cost, charging on campus, range, insurance, and test drives. Every answer comes from our rule-based Dialogflow agent.',
   suggestions: [
-    'How does charging at home work?',
-    'How far can I drive on one charge?',
-    'Is an EV a good fit for my commute?',
-    'How do I book a test drive?',
+    'Take the Fit Check quiz',
+    'How much does a Tesla cost?',
+    'Where would I charge?',
+    'Charging on campus',
+    'Insurance tips',
+    'Book a test drive',
   ],
-  footer: 'Answers come from Dialogflow rules. AI polish only rewords them and checks them against trusted sources. Tap "How was this answered?" under any reply.',
+  footer: 'Answers come from hard-coded Dialogflow rules. AI polish is off by default; when on, it only rewords answers and checks them against trusted sources. Tap "How was this answered?" under any reply.',
 };

@@ -1,0 +1,59 @@
+{
+  "id": "e6080206-1e52-57ac-acaa-0a4a2fcdfb90",
+  "name": "buy.process",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Buying a Tesla happens online:\n1. Pick a model and trim on tesla.com and place your order.\n2. Choose cash, a loan, or a lease. You can also bring your own lender.\n3. Set up insurance before delivery.\n4. Take delivery and finish setup in the Tesla app."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "The advertised price does not include fees. At launch, the Model 3 Standard went from $36,990 to about $38,630 with fees."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "Financing with no credit",
+              "Insurance tips",
+              "Book a test drive"
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

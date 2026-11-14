@@ -1,0 +1,59 @@
+{
+  "id": "6ecac73e-39d9-5d3e-a696-fbcef9d61a5b",
+  "name": "cost.overview",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For the 2026 model year, Tesla's cheapest new cars are the Standard trims. The Model 3 Standard launched at $36,990 and the Model Y Standard at $39,990, before fees. With fees, the Model 3 Standard came to about $38,630. Prices change often, so check tesla.com for today's number."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "The federal EV tax credit has ended, so on a tighter budget a used Model 3 is usually the best value. Want tips on buying used or on financing?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "Buying a used Tesla",
+              "Financing with no credit",
+              "Is there a tax credit?"
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

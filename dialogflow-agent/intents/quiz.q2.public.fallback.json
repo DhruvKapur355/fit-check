@@ -1,0 +1,66 @@
+{
+  "id": "1cc798b1-87ef-5cf4-a29d-c3c64ad5e5d1",
+  "name": "quiz.q2.public.fallback",
+  "auto": true,
+  "contexts": [
+    "quiz-q2-public"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "quiz-q2-public",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "I didn't catch that answer. Pick A or B, or type \"menu\" to leave the quiz."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Question 2 of 3: What's your budget?\nA) Under $35,000, used is fine\nB) $35,000 or more for a new car"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "Under $35,000, used is fine",
+              "$35,000 or more, new"
+            ],
+            "polish": false
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

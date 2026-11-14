@@ -1,0 +1,171 @@
+[
+  {
+    "id": "4b88ed05-4aab-5c5c-a779-0c32d37c66f5",
+    "data": [
+      {
+        "text": "B",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a4a95556-f222-5ff9-a2ad-d557f9325171",
+    "data": [
+      {
+        "text": "option B",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3f30c61c-db87-5cd4-a73b-fd766a3cb814",
+    "data": [
+      {
+        "text": "only campus or public chargers",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e2e50602-380d-566b-ab2d-c64823f55961",
+    "data": [
+      {
+        "text": "public chargers",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d0bce83b-1075-5430-acea-6b4f0531954b",
+    "data": [
+      {
+        "text": "campus chargers",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "72a864c4-1b6a-5bc7-abd4-7e0c68c5c4a4",
+    "data": [
+      {
+        "text": "I can't charge at home",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "73e6dd50-257e-5252-a2cf-2d35de0738e6",
+    "data": [
+      {
+        "text": "no garage",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c2e86d71-1373-5eed-a2df-5388f7c1873b",
+    "data": [
+      {
+        "text": "no outlet",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "cc3df309-173c-570e-a526-36d376cc2310",
+    "data": [
+      {
+        "text": "I live in a dorm",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d10fbf60-4778-52db-adf4-35312f15ce83",
+    "data": [
+      {
+        "text": "my apartment does not have charging",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ad21c681-968c-5e47-a91a-90b7e34f112f",
+    "data": [
+      {
+        "text": "street parking",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "230586d8-d17b-5928-a7ea-446ca21c64f6",
+    "data": [
+      {
+        "text": "no I can't plug in",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6876250a-632e-5a5b-a113-f22744bedcd4",
+    "data": [
+      {
+        "text": "only public",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

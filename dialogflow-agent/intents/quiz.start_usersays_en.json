@@ -1,0 +1,171 @@
+[
+  {
+    "id": "546ed208-34be-59dd-ae77-1bbb3c311359",
+    "data": [
+      {
+        "text": "take the Fit Check quiz",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f61e2a66-dd48-567e-a589-ddc3c944b728",
+    "data": [
+      {
+        "text": "start the quiz",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "757bffb8-3473-57b2-aea5-667a82e12880",
+    "data": [
+      {
+        "text": "quiz",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2b75dd2c-7481-5617-ab4a-e0d909b1968d",
+    "data": [
+      {
+        "text": "fit check",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f4000eab-f1ca-5f22-a8cb-24623fd58d57",
+    "data": [
+      {
+        "text": "is an EV right for me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4e154c64-6931-55fa-aac4-09c919be6cfc",
+    "data": [
+      {
+        "text": "is a Tesla right for me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "26887e3c-136c-5104-af4c-ba894aa7e0b7",
+    "data": [
+      {
+        "text": "which Tesla fits me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3c9772bd-ab88-5fb8-a2d5-fe1aaad10173",
+    "data": [
+      {
+        "text": "help me decide",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "923c3203-520a-545c-aae6-151f6bf01ae9",
+    "data": [
+      {
+        "text": "retake the quiz",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "58c492a2-900a-5bdc-a12c-f50800766428",
+    "data": [
+      {
+        "text": "restart the quiz",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "99d13164-e5a2-5472-a07c-c081e2b84794",
+    "data": [
+      {
+        "text": "start over",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7bc09618-7467-5058-a8f4-2afea658ff4c",
+    "data": [
+      {
+        "text": "give me a recommendation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "387a3a72-19f3-5cfa-a751-6ca96617820a",
+    "data": [
+      {
+        "text": "what should I buy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

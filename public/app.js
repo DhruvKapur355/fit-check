@@ -29,7 +29,8 @@
   let sessionId = store.get('fc_session', 'sessionStorage');
   if (!sessionId) { sessionId = newId(); store.set('fc_session', sessionId, 'sessionStorage'); }
 
-  if (store.get('fc_polish') === 'off') els.toggle.checked = false;
+  // AI polish is OFF by default so the bot runs purely rule-based unless someone turns it on.
+  els.toggle.checked = store.get('fc_polish') === 'on';
   els.toggle.setAttribute('aria-label', 'AI polish');
   els.toggle.addEventListener('change', () => store.set('fc_polish', els.toggle.checked ? 'on' : 'off'));
 
@@ -140,6 +141,17 @@
           </li>
         </ol>
       </div>`;
+    if ((data.suggestions || []).length) {
+      const quick = document.createElement('div');
+      quick.className = 'quick';
+      data.suggestions.forEach((s) => {
+        const b = document.createElement('button');
+        b.type = 'button'; b.className = 'chip small'; b.textContent = s;
+        b.addEventListener('click', () => send(s));
+        quick.appendChild(b);
+      });
+      div.appendChild(quick);
+    }
     const btn = div.querySelector('.details-btn');
     const det = div.querySelector('.details');
     btn.addEventListener('click', () => {
@@ -167,6 +179,7 @@
     els.hero.hidden = true;
     els.input.value = '';
     autosize();
+    document.querySelectorAll('.quick').forEach((q) => q.remove());
     addUser(message);
     const typing = addTyping();
     try {

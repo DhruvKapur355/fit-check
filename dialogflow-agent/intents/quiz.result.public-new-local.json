@@ -1,0 +1,91 @@
+{
+  "id": "d6454fcd-2967-5079-ac43-692acb2b542a",
+  "name": "quiz.result.public-new-local",
+  "auto": true,
+  "contexts": [
+    "quiz-q3-public-new"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "quiz-q1",
+          "lifespan": 0
+        },
+        {
+          "name": "quiz-q2-home",
+          "lifespan": 0
+        },
+        {
+          "name": "quiz-q2-public",
+          "lifespan": 0
+        },
+        {
+          "name": "quiz-q3-home-used",
+          "lifespan": 0
+        },
+        {
+          "name": "quiz-q3-home-new",
+          "lifespan": 0
+        },
+        {
+          "name": "quiz-q3-public-used",
+          "lifespan": 0
+        },
+        {
+          "name": "quiz-q3-public-new",
+          "lifespan": 0
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Your Fit Check result: GOOD FIT, WITH PLANNING.\nMy pick: a new Model 3 Standard (launched at $36,990 before fees)."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Why: local driving is easy to cover with a couple of charging sessions a week on campus or at public chargers, but you'll pay public rates and follow time limits. Since you're paying new-car prices, ask your landlord about an outlet before you buy.\nNext steps: map the chargers near you, get an insurance quote, and book a demo drive."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "Book a test drive",
+              "Insurance tips",
+              "Financing with no credit",
+              "Retake the quiz"
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,132 @@
+[
+  {
+    "id": "69dd684a-9493-5776-afee-ba51bac7e884",
+    "data": [
+      {
+        "text": "battery warranty",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ea71391a-9e42-51d0-a2cc-1d92d535bc7c",
+    "data": [
+      {
+        "text": "how long does the battery last",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "65490157-98c0-5886-a041-755da337a7a5",
+    "data": [
+      {
+        "text": "battery degradation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "de5123d8-2cbb-5c89-a064-f3300ede8ceb",
+    "data": [
+      {
+        "text": "what if the battery dies",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8a38ac2b-85c5-592b-aa0e-46e651be224b",
+    "data": [
+      {
+        "text": "Tesla warranty",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "064477f7-f9c8-59ad-a295-12d06e29c3f7",
+    "data": [
+      {
+        "text": "is the battery covered",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1715b666-dbf3-57bf-a43f-d4e2f19de065",
+    "data": [
+      {
+        "text": "battery replacement",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0556da80-e1e6-52bc-ab72-f3eb952e2c0f",
+    "data": [
+      {
+        "text": "how many years is the battery warranty",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "cc6cf02e-23e5-5d9b-ae2d-6d5c49b71095",
+    "data": [
+      {
+        "text": "does the battery wear out",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "82a71047-1d11-5e9f-a668-1343a30452c1",
+    "data": [
+      {
+        "text": "drive unit warranty",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

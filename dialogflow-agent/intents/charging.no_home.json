@@ -1,0 +1,59 @@
+{
+  "id": "1b37b251-38ff-523e-a95e-0e266a58c56a",
+  "name": "charging.no_home",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "You can still own an EV without a garage, it just takes planning:\n1. Ask your landlord or complex if there's an outlet or charger you can use. Even a regular 120V outlet helps.\n2. Check your campus parking office for EV charging spaces."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "3. Use public Level 2 chargers while you are in class, at the gym, or shopping.\n4. Use Superchargers for quick top-ups, but they cost more than charging at home.\nWant info on charging on campus?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "Charging on campus",
+              "Charging vs. gas cost",
+              "Take the Fit Check quiz"
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

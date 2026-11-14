@@ -1,0 +1,58 @@
+{
+  "id": "190d4bae-f2c0-5c3b-a021-bc8b17fdb332",
+  "name": "fsd.autopilot",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Teslas offer driver-assistance features, but none of them drive themselves. Full Self-Driving (Supervised) is an optional extra and still requires you to pay attention and be ready to take over at all times."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Note that the 2026 Standard trims dropped Autosteer, so check exactly what a trim includes before you buy. On a student budget, this is an easy thing to skip."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "Model 3 vs Model Y",
+              "How much does a Tesla cost?"
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,58 @@
+{
+  "id": "93e141b8-bb83-5c9f-acaa-d4c7a551026c",
+  "name": "insurance.tips",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "EVs, and Teslas especially, often cost more to insure than comparable gas cars, and young drivers already pay more. Ways to keep it down:\n- Get quotes for the exact model and trim before you buy.\n- Ask about a good-student discount (usually for a B average or better)."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "- See if you can stay on a parent's policy.\n- Ask about safe-driving (telematics) programs and bundling.\n- Compare a higher deductible against the savings."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "Financing with no credit",
+              "How much does a Tesla cost?"
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,145 @@
+[
+  {
+    "id": "9802b8ca-cb99-5f47-a9e3-b3067326127b",
+    "data": [
+      {
+        "text": "where would I charge",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0dae262b-6392-5e28-a30d-0bef3484ac28",
+    "data": [
+      {
+        "text": "how does charging work",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7c626a40-b14a-59b7-a986-267553854e2b",
+    "data": [
+      {
+        "text": "how do I charge an EV",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f9b4074e-39b8-59ca-a61b-1fc35cb38686",
+    "data": [
+      {
+        "text": "what are Level 1 and Level 2",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3ccffc54-74fb-515b-a818-e6c49760ae4d",
+    "data": [
+      {
+        "text": "how long does it take to charge",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4b825a34-9232-5931-a123-7c43dfd040d0",
+    "data": [
+      {
+        "text": "charging speeds",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "65f20623-b4d2-52c9-a354-80a5abc3f1b0",
+    "data": [
+      {
+        "text": "can I plug into a normal outlet",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "82eec3dc-76f6-52ad-ad1f-48a1008a9d59",
+    "data": [
+      {
+        "text": "do I need a special charger",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a32fe057-7e30-5837-a1c4-462713dc9122",
+    "data": [
+      {
+        "text": "how fast does a Tesla charge",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d2fc2f17-78cd-5511-a624-ccd85851fb09",
+    "data": [
+      {
+        "text": "what is a Level 2 charger",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b57c3a8a-26c1-537d-a6cb-2093d3d2de1f",
+    "data": [
+      {
+        "text": "charging options",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

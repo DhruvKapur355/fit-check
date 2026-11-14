@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <title>Fit Check - EV buying assistant</title>
-  <meta name="description" content="A rule-based Dialogflow chatbot that helps first-time EV buyers." />
+  <title>Fit Check - EV guide for college students</title>
+  <meta name="description" content="A rule-based Dialogflow chatbot that helps college students decide if an EV fits their life and budget." />
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%23141414'/%3E%3Cpath d='M9 16.5l4.5 4.5L23 11.5' stroke='%2337D39A' stroke-width='3.2' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -27,8 +27,8 @@
       <span class="status" id="llmStatus" title="Status of the local AI on our own PC">
         <span class="dot"></span><span class="status-text">Checking AI…</span>
       </span>
-      <label class="toggle" title="When off, you see the exact Dialogflow responses">
-        <input type="checkbox" id="polishToggle" checked />
+      <label class="toggle" title="Off by default: you see the exact Dialogflow responses">
+        <input type="checkbox" id="polishToggle" />
         <span class="track"><span class="thumb"></span></span>
         <span class="toggle-label">AI polish</span>
       </label>
@@ -40,9 +40,7 @@
       <div class="pipeline" aria-label="How replies are made">
         <span class="step"><b>1</b> Dialogflow rules pick the answer</span>
         <span class="arrow">→</span>
-        <span class="step"><b>2</b> Local AI checks sources</span>
-        <span class="arrow">→</span>
-        <span class="step"><b>3</b> Local AI rewords it</span>
+        <span class="step"><b>2</b> Optional: AI checks sources and rewords it</span>
       </div>
       <h1 id="heroTitle"></h1>
       <p id="heroSub"></p>

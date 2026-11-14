@@ -1,0 +1,91 @@
+{
+  "id": "2ed63bf5-34bd-5569-af56-67d0f121e44a",
+  "name": "quiz.result.home-used-local",
+  "auto": true,
+  "contexts": [
+    "quiz-q3-home-used"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "quiz-q1",
+          "lifespan": 0
+        },
+        {
+          "name": "quiz-q2-home",
+          "lifespan": 0
+        },
+        {
+          "name": "quiz-q2-public",
+          "lifespan": 0
+        },
+        {
+          "name": "quiz-q3-home-used",
+          "lifespan": 0
+        },
+        {
+          "name": "quiz-q3-home-new",
+          "lifespan": 0
+        },
+        {
+          "name": "quiz-q3-public-used",
+          "lifespan": 0
+        },
+        {
+          "name": "quiz-q3-public-new",
+          "lifespan": 0
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Your Fit Check result: GREAT FIT.\nMy pick: a used Model 3 from Tesla's used inventory."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Why: you can plug in at home and you mostly drive locally, so even a regular 120V outlet (about 2-5 miles of range per hour) can refill a normal day of campus driving overnight. Buying used keeps the price down, and the 8-year battery warranty stays with the car.\nNext steps: check how much battery warranty is left, get an insurance quote, and book a demo drive."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "Book a test drive",
+              "Insurance tips",
+              "Financing with no credit",
+              "Retake the quiz"
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

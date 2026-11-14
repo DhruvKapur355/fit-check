@@ -1,0 +1,91 @@
+{
+  "id": "f3ca0603-efe2-5023-a07c-7c771ca01d26",
+  "name": "quiz.result.home-new-local",
+  "auto": true,
+  "contexts": [
+    "quiz-q3-home-new"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "quiz-q1",
+          "lifespan": 0
+        },
+        {
+          "name": "quiz-q2-home",
+          "lifespan": 0
+        },
+        {
+          "name": "quiz-q2-public",
+          "lifespan": 0
+        },
+        {
+          "name": "quiz-q3-home-used",
+          "lifespan": 0
+        },
+        {
+          "name": "quiz-q3-home-new",
+          "lifespan": 0
+        },
+        {
+          "name": "quiz-q3-public-used",
+          "lifespan": 0
+        },
+        {
+          "name": "quiz-q3-public-new",
+          "lifespan": 0
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Your Fit Check result: GREAT FIT.\nMy pick: a new Model 3 Standard, the cheapest new Tesla (launched at $36,990 before fees, EPA-rated up to 321 miles for 2026)."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Why: you can plug in at home and you drive locally, so a regular outlet is enough to start and a Level 2 charger is optional. A new car comes with Tesla's full warranty.\nNext steps: get an insurance quote, compare financing with a credit union, and book a demo drive."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "Book a test drive",
+              "Insurance tips",
+              "Financing with no credit",
+              "Retake the quiz"
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

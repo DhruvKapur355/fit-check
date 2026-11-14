@@ -1,0 +1,158 @@
+[
+  {
+    "id": "cd075aa1-54d3-513a-a2ae-e1de73595c41",
+    "data": [
+      {
+        "text": "B",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1a3532e1-c73e-5db2-a74e-a85f347d4d13",
+    "data": [
+      {
+        "text": "option B",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "42848ea2-bf4d-54c0-a142-4b3b57874390",
+    "data": [
+      {
+        "text": "long trips home",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e496a327-cb8a-57bd-aa2a-e3e0d0d14e70",
+    "data": [
+      {
+        "text": "long trips",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0e499baa-2415-58e3-a15e-87e734856999",
+    "data": [
+      {
+        "text": "road trips",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7fc1471a-bd76-52c3-af1e-fee27b0a7c81",
+    "data": [
+      {
+        "text": "I drive home on breaks",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2283b4af-2bcf-5006-af6e-d41c8457a50e",
+    "data": [
+      {
+        "text": "regular long trips",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "01810093-6cb1-51ff-ad40-15a4d0ef4a05",
+    "data": [
+      {
+        "text": "I drive a lot",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "234cff66-74d6-5713-aed2-de7f810f9bb5",
+    "data": [
+      {
+        "text": "highway driving",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8706d51c-a298-5362-a5b2-430c1dfa18a6",
+    "data": [
+      {
+        "text": "weekend trips",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0f9d8d0e-9c7e-53a9-a55f-de739d5c57bb",
+    "data": [
+      {
+        "text": "I go home every few weeks",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f627d475-f3af-5f93-aea4-52366fb94bcd",
+    "data": [
+      {
+        "text": "more than 2 hours",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,58 @@
+{
+  "id": "f2d82afd-8ed9-507e-a6d5-4600cd8f7e72",
+  "name": "charging.campus",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Most campuses have some EV charging, usually in parking garages and tied to a parking permit. At IU Bloomington, for example, chargers are in the Atwater, East (upper level), Fee Lane, Henderson, and Forrest Avenue garages."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "IU's rules: university permit holders can buy a supplemental EV charging permit at the parking office, visitors pay the hourly garage rate, cars must be actively charging, and charging is limited to 4 hours a day. At other schools, check your parking services website for the same details."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "Road trips",
+              "Take the Fit Check quiz"
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

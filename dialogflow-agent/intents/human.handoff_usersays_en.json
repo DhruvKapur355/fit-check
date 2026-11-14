@@ -1,0 +1,132 @@
+[
+  {
+    "id": "ca48fa59-8de8-56e8-aa60-737bcc777734",
+    "data": [
+      {
+        "text": "talk to a person",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "75285afd-1ef4-5d0c-ae79-d57e5e7eb1b9",
+    "data": [
+      {
+        "text": "talk to a human",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a9dcfbd9-98cd-5b3d-afd9-862c53748f0f",
+    "data": [
+      {
+        "text": "real person",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a5014b30-f42d-596c-ac51-7a5331d6ac52",
+    "data": [
+      {
+        "text": "can I speak to someone",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e8e99732-f435-5468-a43c-c55ae96be73f",
+    "data": [
+      {
+        "text": "customer service",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a9b4d4e9-c328-5b4f-abe3-66276dd77f2a",
+    "data": [
+      {
+        "text": "contact Tesla",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "05a1792c-384d-558a-a180-db67d530541b",
+    "data": [
+      {
+        "text": "I want to talk to an agent",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bf734c30-7da9-5ed5-acbe-b48732bbfdd0",
+    "data": [
+      {
+        "text": "speak to a representative",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1c5fca3f-09ef-5a6c-a030-733d85931aa3",
+    "data": [
+      {
+        "text": "call someone",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "dbfc5b3e-2e20-56c7-ad03-032bbc0f01ef",
+    "data": [
+      {
+        "text": "are you a bot",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

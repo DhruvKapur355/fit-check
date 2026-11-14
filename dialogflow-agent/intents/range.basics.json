@@ -1,0 +1,59 @@
+{
+  "id": "581bcd9b-d2b0-525e-af82-95ee847004d1",
+  "name": "range.basics",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For the 2026 model year, the Model 3 Standard and Model Y Standard are EPA-rated at up to 321 miles. The Premium versions go further: up to 363 miles for the Model 3 and 357 for the Model Y."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Most students drive far less than that in a day, so range mostly matters for road trips and cold weather. Want to know how winter affects range?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "Winter range",
+              "Road trips",
+              "Model 3 vs Model Y"
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

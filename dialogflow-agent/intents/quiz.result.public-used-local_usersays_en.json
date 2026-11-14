@@ -1,0 +1,158 @@
+[
+  {
+    "id": "5a59dec0-4306-53bf-adc5-fb6a68e6b2fa",
+    "data": [
+      {
+        "text": "A",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bab47ba3-26b2-5cf9-ac37-4e325c00e749",
+    "data": [
+      {
+        "text": "option A",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ad5886dd-070f-5de0-ad8d-9350997d7fab",
+    "data": [
+      {
+        "text": "mostly around campus",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d97e6158-7fbc-584f-af2c-f1677b047aa2",
+    "data": [
+      {
+        "text": "around town",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0e7beb22-d059-5eda-a112-28e6e061525f",
+    "data": [
+      {
+        "text": "short trips",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ca468f6f-4bae-59e8-a529-6033a9e911c1",
+    "data": [
+      {
+        "text": "local",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f014b906-0b3e-5719-ad1a-d6e4661de3ef",
+    "data": [
+      {
+        "text": "I don't drive far",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9141354c-222a-516d-a6bf-16c47c336880",
+    "data": [
+      {
+        "text": "just around campus",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "48346a99-8c7e-5999-aa3a-68663f4940d6",
+    "data": [
+      {
+        "text": "driving to class",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "fb8dd26f-ab19-5903-a789-0867f2022de7",
+    "data": [
+      {
+        "text": "a few miles a day",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "94af43d6-4829-51cb-a1b6-3efe76587f33",
+    "data": [
+      {
+        "text": "mostly local driving",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "80dfb0f3-4b58-53dc-aa37-154490fa92ca",
+    "data": [
+      {
+        "text": "not much",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

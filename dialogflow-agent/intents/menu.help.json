@@ -1,0 +1,60 @@
+{
+  "id": "f353a093-2ee2-5ca4-a463-70ae38458cd9",
+  "name": "menu.help",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Here is what I can help with:\n- The Fit Check quiz (3 questions, personalized pick)\n- Costs, tax credits, and charging vs. gas\n- Charging at home, in an apartment or dorm, or on campus\n- Range, road trips, and winter driving"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "- Model 3 vs. Model Y, buying used, and the battery warranty\n- Insurance, financing with little credit, and maintenance\n- Booking a demo drive and how ordering works\nWhat do you want to start with?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "Take the Fit Check quiz",
+              "How much does a Tesla cost?",
+              "Where would I charge?",
+              "Book a test drive"
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,58 @@
+{
+  "id": "ac11ada3-48c2-5118-a21f-b3390126cdaa",
+  "name": "charging.road_trip",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Road trips are where Tesla's Supercharger network helps. DC fast charging adds roughly 180-240 miles of range per hour, and the U.S. DOT puts a fast charge to 80% at about 20 minutes to an hour. Tesla's navigation can plan charging stops along your route."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Tips: leave with a full charge from home, plan an extra stop in winter, and expect to pay more per mile than charging at home."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "How far can I drive?",
+              "Winter range"
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,58 @@
+{
+  "id": "a83f1e06-db5c-59c7-abd2-ff0d44841aa6",
+  "name": "range.winter",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Cold weather is the biggest range hit. In AAA's 2026 testing at 20°F with the heat set to 72°F, the EVs tested lost about 39% of their range on average. A car rated for 321 miles might go roughly 200 in a deep freeze."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Tips: warm the car up while it is still plugged in, use seat heaters instead of blasting cabin heat, and keep a bigger buffer on winter road trips."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "Road trips",
+              "Take the Fit Check quiz"
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

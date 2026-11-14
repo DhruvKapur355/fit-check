@@ -1,0 +1,171 @@
+[
+  {
+    "id": "290cbde8-38d8-5ca4-a057-98f1e0590886",
+    "data": [
+      {
+        "text": "A",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d2c60206-93bc-5d60-a88b-62a301e5f38e",
+    "data": [
+      {
+        "text": "option A",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6b4c0db8-f081-5507-afaa-2073667cc73e",
+    "data": [
+      {
+        "text": "I can charge at home",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ce29f59e-e105-5f6d-a0e1-6526590675bb",
+    "data": [
+      {
+        "text": "at home",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "fb6cd4bb-4445-5ea0-aa9b-dcc4fe293306",
+    "data": [
+      {
+        "text": "home",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5847e28e-33c2-5859-a10d-b71a5f45ad84",
+    "data": [
+      {
+        "text": "I have a garage",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "834cd9af-459c-56dd-a781-db1896668f39",
+    "data": [
+      {
+        "text": "I have a driveway",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4f356cd3-cea9-52e5-afbd-739074772674",
+    "data": [
+      {
+        "text": "my apartment has a charger",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d1fc90fc-c9f8-5b12-a411-e8888e94829e",
+    "data": [
+      {
+        "text": "there's an outlet I can use",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7e631bea-98b7-5013-a8f6-70d7b7c9242c",
+    "data": [
+      {
+        "text": "I can plug in where I live",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b7b9a57e-1d21-54ad-a772-5a436ea27a32",
+    "data": [
+      {
+        "text": "my parking spot has an outlet",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d16fb1da-f8f7-5ab7-a23c-ba92984b19b6",
+    "data": [
+      {
+        "text": "I live in a house",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "858fa782-39c9-51c1-a83d-98b9a0375da1",
+    "data": [
+      {
+        "text": "yes I can plug in at home",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

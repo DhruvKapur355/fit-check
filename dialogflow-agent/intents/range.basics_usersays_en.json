@@ -1,0 +1,132 @@
+[
+  {
+    "id": "c61d8de5-7e12-593f-a4b2-e9c230954c9e",
+    "data": [
+      {
+        "text": "how far can I drive",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "206f0d1a-27db-56d7-a850-0f036381f01a",
+    "data": [
+      {
+        "text": "how far can I drive on one charge",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e785819c-fd3f-5511-ac4d-f95065f843c7",
+    "data": [
+      {
+        "text": "what is the range",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c744fd5f-105b-56bb-a6ed-62a65a59ca83",
+    "data": [
+      {
+        "text": "range of a Model 3",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1f9ee8ba-21c5-5dd8-adaa-dda33f657c67",
+    "data": [
+      {
+        "text": "how many miles per charge",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "40b177ab-5d16-5160-ac24-f8f682700ab7",
+    "data": [
+      {
+        "text": "range of a Model Y",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "57fdda41-67fb-5685-a4d3-8c023b800c98",
+    "data": [
+      {
+        "text": "will I run out of battery",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "13570ffa-be66-5e58-a407-07c0bdea4077",
+    "data": [
+      {
+        "text": "range anxiety",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "699409ca-0a56-5d42-a6f3-84d70552f828",
+    "data": [
+      {
+        "text": "how long does the battery last per charge",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e76a9408-0e0b-5c03-ac58-dfb28253acda",
+    "data": [
+      {
+        "text": "miles on a full charge",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

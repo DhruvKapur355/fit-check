@@ -1,0 +1,58 @@
+{
+  "id": "f6f05ded-3824-5c17-a225-46e37179dd39",
+  "name": "cost.charging_vs_gas",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Charging at home is usually the cheapest way to fuel any car. The Department of Energy's example: at 10.7 cents per kWh and 27 kWh per 100 miles, an EV costs about 3 cents per mile. Your electric rate may be higher, so plug in your own rate."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "AAA's 2026 testing found home-charged EVs cost about $56 per 1,000 miles in mild weather and about $88 at 20°F. Public fast charging costs more than charging at home, so where you charge matters most."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "Where would I charge?",
+              "Winter range"
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

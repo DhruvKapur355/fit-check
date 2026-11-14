@@ -1,0 +1,59 @@
+{
+  "id": "763dd5b6-746b-5cf5-ae40-962ae0ad8984",
+  "name": "buy.used",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Buying used is the best value for most students, and Tesla sells used cars on tesla.com. Buy from Tesla and you get whatever is left of the original 4-year/50,000-mile basic warranty, then a 1-year/10,000-mile used vehicle warranty. The 8-year battery and drive unit warranty also stays with the car."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Before you buy, check how much battery warranty is left, look at the vehicle history, and test drive it. Want details on the battery warranty?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "Battery warranty",
+              "Financing with no credit",
+              "Book a test drive"
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
