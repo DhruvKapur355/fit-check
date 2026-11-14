@@ -42,6 +42,7 @@ export default async function handler(req, res) {
     const showDetail = process.env.VERCEL_ENV !== 'production';
     return res.status(err.status || 500).json({
       error: err.publicMessage || 'Something went wrong.',
+      ...(err.hint ? { hint: err.hint } : {}),
       ...(showDetail ? { detail: err.message } : {}),
     });
   }

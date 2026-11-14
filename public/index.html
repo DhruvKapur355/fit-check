@@ -3,61 +3,79 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <title>Fit Check - EV guide for college students</title>
+  <title>Fit Check Guide - your first electric car</title>
   <meta name="description" content="A rule-based Dialogflow chatbot that helps college students decide if an EV fits their life and budget." />
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%23141414'/%3E%3Cpath d='M9 16.5l4.5 4.5L23 11.5' stroke='%2337D39A' stroke-width='3.2' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23171a20'/%3E%3Cpath d='M9 16.5l4.5 4.5L23 11.5' stroke='%23fff' stroke-width='3' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="/styles.css" />
   <script src="/config.js"></script>
 </head>
 <body>
-  <header class="topbar">
-    <div class="brand">
-      <span class="mark" aria-hidden="true">
-        <svg viewBox="0 0 32 32"><rect width="32" height="32" rx="9"/><path d="M9 16.5l4.5 4.5L23 11.5"/></svg>
+  <header class="nav">
+    <a class="brand" href="/" aria-label="Home">
+      <span class="brand-main" id="brand">FIT CHECK</span>
+      <span class="brand-div" aria-hidden="true"></span>
+      <span class="brand-sub" id="brandSub">GUIDE</span>
+    </a>
+    <nav class="links" id="navLinks" aria-label="Topics"></nav>
+    <div class="nav-right">
+      <span class="region">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.7 3.8 5.7 3.8 9s-1.3 6.3-3.8 9c-2.5-2.7-3.8-5.7-3.8-9S9.5 5.7 12 3z"/></svg>
+        <span id="region">United States</span>
       </span>
-      <div>
-        <div class="brand-name" id="brandName">Fit Check</div>
-        <div class="brand-tag" id="brandTag">EV buying assistant</div>
-      </div>
-    </div>
-    <div class="controls">
-      <span class="status" id="llmStatus" title="Status of the local AI on our own PC">
-        <span class="dot"></span><span class="status-text">Checking AI…</span>
+      <span class="account" aria-hidden="true">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-7 8-7s8 2.6 8 7"/></svg>
       </span>
-      <label class="toggle" title="Off by default: you see the exact Dialogflow responses">
-        <input type="checkbox" id="polishToggle" />
-        <span class="track"><span class="thumb"></span></span>
-        <span class="toggle-label">AI polish</span>
-      </label>
     </div>
   </header>
 
-  <main class="chat" id="chat" aria-live="polite">
-    <section class="hero" id="hero">
-      <div class="pipeline" aria-label="How replies are made">
-        <span class="step"><b>1</b> Dialogflow rules pick the answer</span>
-        <span class="arrow">→</span>
-        <span class="step"><b>2</b> Optional: AI checks sources and rewords it</span>
-      </div>
+  <section class="hero" id="hero">
+    <div class="hero-text">
+      <p class="eyebrow" id="eyebrow"></p>
       <h1 id="heroTitle"></h1>
-      <p id="heroSub"></p>
-      <div class="chips" id="chips"></div>
-    </section>
-    <div class="messages" id="messages"></div>
-  </main>
+      <p class="hero-sub" id="heroSub"></p>
+    </div>
+  </section>
 
-  <footer class="composer-wrap">
-    <form class="composer" id="composer">
-      <textarea id="input" rows="1" maxlength="500" placeholder="Ask about charging, range, costs…" aria-label="Message"></textarea>
-      <button type="submit" id="send" aria-label="Send">
-        <svg viewBox="0 0 24 24"><path d="M4 12h14M13 6l6 6-6 6"/></svg>
+  <main class="panel">
+    <div class="panel-head">
+      <div>
+        <h2 id="sectionTitle"></h2>
+        <p id="sectionSub"></p>
+      </div>
+      <button type="button" class="icon-btn" id="newChat" title="Start a new chat" aria-label="Start a new chat">
+        <svg viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4z"/></svg>
       </button>
+    </div>
+
+    <div class="messages" id="messages" aria-live="polite"></div>
+    <div class="chips" id="chips"></div>
+
+    <form class="composer" id="composer">
+      <textarea id="input" rows="2" maxlength="500" aria-label="Message"></textarea>
+      <div class="composer-bar">
+        <div class="bar-left">
+          <span class="verified" title="Every answer comes from our hard-coded Dialogflow rules">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l7 3v5c0 4.5-3 8.2-7 10-4-1.8-7-5.5-7-10V6z"/><path d="M9 12l2 2 4-4"/></svg>
+            Verified sources
+          </span>
+          <label class="polish" id="polishWrap" title="Off by default: you see the exact Dialogflow responses">
+            <input type="checkbox" id="polishToggle" />
+            <span class="track"><span class="thumb"></span></span>
+            <span>AI polish</span>
+            <span class="ai-dot" id="aiDot" aria-hidden="true"></span>
+          </label>
+        </div>
+        <button type="submit" id="send" class="send" aria-label="Send" disabled>
+          <svg viewBox="0 0 24 24"><path d="M12 19V5M5.5 11.5L12 5l6.5 6.5"/></svg>
+        </button>
+      </div>
     </form>
-    <p class="fineprint" id="fineprint"></p>
-  </footer>
+
+    <p class="footnote" id="footnote"></p>
+  </main>
 
   <script src="/app.js"></script>
 </body>

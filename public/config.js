@@ -1,17 +1,26 @@
 // Edit this file to change the text on the site. No code changes needed.
-// The buttons send these exact phrases to Dialogflow, so keep them matched to training phrases.
+// Buttons and nav links send these exact phrases to Dialogflow, so keep them matched to training phrases.
 window.FIT_CHECK = {
-  name: 'Fit Check',
-  tagline: 'EV guide for college students',
-  heroTitle: 'Is an EV the right first car for you?',
-  heroSub: 'Take the 3-question Fit Check quiz or ask about cost, charging on campus, range, insurance, and test drives. Every answer comes from our rule-based Dialogflow agent.',
+  brand: 'FIT CHECK',
+  brandSub: 'GUIDE',
+  region: 'United States',
+  nav: [
+    { label: 'Compare models', ask: 'Model 3 vs Model Y' },
+    { label: 'Charging at home', ask: 'How does charging work' },
+    { label: 'Range & battery', ask: 'How far can I drive on one charge' },
+  ],
+  eyebrow: 'Your first electric car',
+  heroTitle: 'Fit Check',
+  heroSub: 'A little clarity before your next big decision.',
+  heroImage: '/hero.jpg',
+  sectionTitle: 'What would you like to know?',
+  sectionSub: 'Model choices, charging, range, and life with an EV in college.',
+  placeholder: 'Ask a question about EVs or Tesla...',
   suggestions: [
     'Take the Fit Check quiz',
     'How much does a Tesla cost?',
-    'Where would I charge?',
     'Charging on campus',
-    'Insurance tips',
     'Book a test drive',
   ],
-  footer: 'Answers come from hard-coded Dialogflow rules. AI polish is off by default; when on, it only rewords answers and checks them against trusted sources. Tap "How was this answered?" under any reply.',
+  footer: 'Fit Check · EV guide simulation for a class project, not affiliated with Tesla. Please don’t share personal details.',
 };
