@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Fit Check - EV buying assistant</title>
+  <meta name="description" content="A rule-based Dialogflow chatbot that helps first-time EV buyers." />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%23141414'/%3E%3Cpath d='M9 16.5l4.5 4.5L23 11.5' stroke='%2337D39A' stroke-width='3.2' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css" />
+  <script src="/config.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="mark" aria-hidden="true">
+        <svg viewBox="0 0 32 32"><rect width="32" height="32" rx="9"/><path d="M9 16.5l4.5 4.5L23 11.5"/></svg>
+      </span>
+      <div>
+        <div class="brand-name" id="brandName">Fit Check</div>
+        <div class="brand-tag" id="brandTag">EV buying assistant</div>
+      </div>
+    </div>
+    <div class="controls">
+      <span class="status" id="llmStatus" title="Status of the local AI on our own PC">
+        <span class="dot"></span><span class="status-text">Checking AI…</span>
+      </span>
+      <label class="toggle" title="When off, you see the exact Dialogflow responses">
+        <input type="checkbox" id="polishToggle" checked />
+        <span class="track"><span class="thumb"></span></span>
+        <span class="toggle-label">AI polish</span>
+      </label>
+    </div>
+  </header>
+
+  <main class="chat" id="chat" aria-live="polite">
+    <section class="hero" id="hero">
+      <div class="pipeline" aria-label="How replies are made">
+        <span class="step"><b>1</b> Dialogflow rules pick the answer</span>
+        <span class="arrow">→</span>
+        <span class="step"><b>2</b> Local AI checks sources</span>
+        <span class="arrow">→</span>
+        <span class="step"><b>3</b> Local AI rewords it</span>
+      </div>
+      <h1 id="heroTitle"></h1>
+      <p id="heroSub"></p>
+      <div class="chips" id="chips"></div>
+    </section>
+    <div class="messages" id="messages"></div>
+  </main>
+
+  <footer class="composer-wrap">
+    <form class="composer" id="composer">
+      <textarea id="input" rows="1" maxlength="500" placeholder="Ask about charging, range, costs…" aria-label="Message"></textarea>
+      <button type="submit" id="send" aria-label="Send">
+        <svg viewBox="0 0 24 24"><path d="M4 12h14M13 6l6 6-6 6"/></svg>
+      </button>
+    </form>
+    <p class="fineprint" id="fineprint"></p>
+  </footer>
+
+  <script src="/app.js"></script>
+</body>
+</html>
